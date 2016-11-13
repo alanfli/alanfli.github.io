@@ -1,0 +1,278 @@
+/* Alan Li--CSS main page */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html,body{
+  width:100%;
+}
+body{
+  font-family: "Raleway",sans-serif;
+  background-color: #FFF;
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+#navbar{
+  text-align: center;
+  position: fixed;
+  height:auto;
+  width: 100%;
+  background-color: #000; opacity: 0.7; filter: alpha(opacity=70);
+  z-index: 900;
+}
+
+ul{
+  margin:5px;
+  padding: 0;
+  opacity:1.0;
+  }
+
+li{
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 3.7px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  margin-left:20px;
+  margin-right:20px;
+  display:inline-block;
+  color: #FFF;
+  opacity: 1.0;
+}
+
+#welcome{
+  position: static;
+  background: url("Room.jpg") no-repeat center;
+  display:block;
+  text-align: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+#welcome h1{
+  color: #FFF;
+  font-size: 75px;
+  font-weight: bold;
+  letter-spacing: 3.7px;
+}
+#welcome_name{
+  position: static;
+  margin-top: 300px;
+  padding:0px 50px;
+  display:inline-block;
+}
+
+#welcome h2{
+  color: #FFF;
+  font-weight: lighter;
+  letter-spacing: 2.5px;
+}
+
+.circle-image{
+  border-radius:50%;
+  border: solid medium White;
+}
+
+#faceshot{
+  position: absolute;
+  margin-top:80px;
+  width: 100%;
+}
+
+#about-section{
+  position: static;
+  display: block;
+  text-align: center;
+  background-size: cover;
+}
+
+.heading{
+  width: 15%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  font-weight: bolder;
+  border-width: 0px 0px 5px 0px;
+  border-color: Blue;
+}
+
+.heading-para{
+  margin-top: 25px;
+  font: "Quicksand",sans-serif;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+}
+
+.section{
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.subheading-about{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#about-sub1{
+ float: left;
+ width: 33%;
+
+}
+
+#about-sub2{
+  display: inline-block;
+  width: 33%;
+}
+
+#about-sub3{
+  float: right;
+  width: 33%;
+}
+
+.about-sub-para{
+  margin-top: 25px;
+  font-weight:normal;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.subheading-about h1{
+  border-width: 0px 0px 5px 0px;
+  border-style: double;
+  border-color: #6bdc8a;
+}
+
+#mission{
+  font-family: "Quicksand",sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  display: block;
+  margin-top: 100px;
+  position: static;
+  clear:both;
+  letter-spacing: 0.5px;
+}
+
+#mission b{
+  font-weight: bold;
+}
+#cv{
+  font-style: italic;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  display: block;
+  margin-top: 50px;
+  position: static;
+}
+
+.button{
+  font-family: "Quicksand",sans-serif;
+  color: #FFF;
+  font-weight: lighter;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+  font-size: 24px;
+  margin-top: 50px;
+  background-color: #aa0826;
+  border-style: none;
+  border-radius: 2px;
+}
+
+#project-transition{
+  position: static;
+  margin-top: 50px;
+  background: url("culc.jpg") no-repeat center;
+  display:block;
+  text-align: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+#project{
+  color: #FFF;
+  font-size: 75px;
+  font-weight: bold;
+  letter-spacing: 3.7px;
+  margin: auto;
+  position: relative;
+  padding-top: 130px;
+}
+
+.project-heading{
+  width: 40%;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  font-weight: bolder;
+  border-width: 0px 0px 5px 0px;
+  border-color: Blue;
+}
+
+.project-para{
+  margin-top: 25px;
+  font: "Quicksand",sans-serif;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+}
+
+#contact-section{
+  position: static;
+  margin-top: 100px;
+  background-color: #393939;
+  display:block;
+  text-align: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.contact {
+    width: 75%;
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#contain{
+  position: static;
+  display: inline-block;
+  margin-top: 50px;
+  width: inherit;
+}
